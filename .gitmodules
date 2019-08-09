@@ -1,0 +1,9 @@
+[submodule "MX_Alps_Hybrid"]
+	path = MX_Alps_Hybrid
+	url = https://github.com/529systems/MX_Alps_Hybrid
+[submodule "digikey-kicad-library"]
+	path = digikey-kicad-library
+	url = https://github.com/529systems/digikey-kicad-library.git
+[submodule "SparkFun-KiCad-Libraries"]
+	path = SparkFun-KiCad-Libraries
+	url = https://github.com/529systems/SparkFun-KiCad-Libraries
