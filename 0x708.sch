@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:0x708-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -3339,7 +3340,7 @@ F 3 "" H 11250 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C3
+L Device:CP_Small C3
 U 1 1 5E15E07C
 P 11250 3950
 F 0 "C3" H 11342 3996 50  0000 L CNN
@@ -4234,4 +4235,15 @@ Wire Wire Line
 NoConn ~ 14550 2700
 NoConn ~ 14550 2800
 NoConn ~ 14550 4400
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 5D56B1C1
+P 14750 9300
+F 0 "H15" H 14850 9346 50  0000 L CNN
+F 1 "M2" H 14850 9255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 14750 9300 50  0001 C CNN
+F 3 "~" H 14750 9300 50  0001 C CNN
+	1    14750 9300
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
